@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkyAILogicooo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md p-6 flex justify-between items-center">
+    <!-- Logo + Nombre -->
+    <div class="flex items-center space-x-2">
+      <!-- Logo SVG -->
+      <svg class="w-8 h-8 text-indigo-700" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zm0 7l-10 5 10 5 10-5-10-5z"/>
+      </svg>
+      <h1 class="text-3xl font-bold text-indigo-700">SkyAILogic</h1>
+    </div>
+
+    <!-- Menú -->
+    <nav class="space-x-6 hidden md:block">
+      <a href="#about" data-en="About" data-es="Nosotros" class="hover:text-indigo-700 lang">About</a>
+      <a href="#services" data-en="Services" data-es="Servicios" class="hover:text-indigo-700 lang">Services</a>
+      <a href="#projects" data-en="Projects" data-es="Proyectos" class="hover:text-indigo-700 lang">Projects</a>
+      <a href="#contact" data-en="Contact" data-es="Contacto" class="hover:text-indigo-700 lang">Contact</a>
+    </nav>
+
+    <!-- Botón de idioma -->
+    <button id="lang-toggle" class="ml-4 px-3 py-1 bg-indigo-600 text-white rounded">
+      🇺🇸 EN
+    </button>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-20 bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
+    <h2 data-en="Innovating software with AI and logic"
+        data-es="Innovando software con IA y lógica"
+        class="text-4xl font-bold mb-4 lang">
+      Innovating software with AI and logic
+    </h2>
+    <p data-en="We build smart solutions for web, mobile, and business automation."
+       data-es="Creamos soluciones inteligentes para la web, móviles y automatización empresarial."
+       class="text-lg lang">
+      We build smart solutions for web, mobile, and business automation.
+    </p>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-4xl mx-auto py-16 px-6">
+    <h3 data-en="About SkyAILogic" data-es="Sobre SkyAILogic"
+        class="text-2xl font-bold mb-4 text-indigo-700 lang">
+      About SkyAILogic
+    </h3>
+    <p data-en="SkyAILogic is a software development company that leverages Artificial Intelligence 
+       to deliver innovative web applications, mobile apps, and smart business solutions."
+       data-es="SkyAILogic es una empresa de desarrollo de software que aprovecha la Inteligencia Artificial 
+       para ofrecer aplicaciones web innovadoras, apps móviles y soluciones inteligentes para negocios."
+       class="lang">
+      SkyAILogic is a software development company that leverages Artificial Intelligence 
+      to deliver innovative web applications, mobile apps, and smart business solutions.
+    </p>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="bg-white py-16 px-6">
+    <h3 data-en="Our Services" data-es="Nuestros Servicios"
+        class="text-2xl font-bold mb-8 text-center text-indigo-700 lang">
+      Our Services
+    </h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-gray-50 p-6 rounded-xl shadow hover:shadow-lg">
+        <h4 data-en="Web Development" data-es="Desarrollo Web"
+            class="text-xl font-bold mb-2 lang">
+          Web Development
+        </h4>
+        <p data-en="Modern, scalable and responsive websites tailored for your business."
+           data-es="Sitios web modernos, escalables y responsivos adaptados a tu negocio."
+           class="lang">
+          Modern, scalable and responsive websites tailored for your business.
+        </p>
+      </div>
+      <div class="bg-gray-50 p-6 rounded-xl shadow hover:shadow-lg">
+        <h4 data-en="Mobile Apps" data-es="Aplicaciones Móviles"
+            class="text-xl font-bold mb-2 lang">
+          Mobile Apps
+        </h4>
+        <p data-en="Cross-platform mobile applications with smart user experiences."
+           data-es="Aplicaciones móviles multiplataforma con experiencias de usuario inteligentes."
+           class="lang">
+          Cross-platform mobile applications with smart user experiences.
+        </p>
+      </div>
+      <div class="bg-gray-50 p-6 rounded-xl shadow hover:shadow-lg">
+        <h4 data-en="AI Solutions" data-es="Soluciones con IA"
+            class="text-xl font-bold mb-2 lang">
+          AI Solutions
+        </h4>
+        <p data-en="Automate processes and boost productivity with artificial intelligence."
+           data-es="Automatiza procesos y aumenta la productividad con inteligencia artificial."
+           class="lang">
+          Automate processes and boost productivity with artificial intelligence.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="max-w-5xl mx-auto py-16 px-6">
+    <h3 data-en="Projects" data-es="Proyectos"
+        class="text-2xl font-bold mb-8 text-indigo-700 text-center lang">
+      Projects
+    </h3>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+        <h4 class="text-xl font-bold mb-2">
+          <a href="https://spartane.ai/715/5943/index.html" target="_blank"
+             data-en="Academic Wisdom" data-es="Sabiduría Académica"
+             class="text-indigo-700 hover:underline lang">Academic Wisdom"</a>
+        </h4>
+        <p data-en="A library offers general access to the community, including services for children, students, immigrants, and people with disabilities."
+           data-es="Una biblioteca ofrecen acceso general a la comunidad, incluyendo servicios para niños, estudiantes, inmigrantes y personas con discapacidades.."
+           class="lang">
+          A library offers general access to the community, including services for children, students, immigrants, and people with disabilities.
+        </p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+        <h4 class="text-xl font-bold mb-2">
+          <a href="https://github.com/TU_USUARIO/proyecto2" target="_blank"
+             data-en="Project 2" data-es="Proyecto 2"
+             class="text-indigo-700 hover:underline lang">Project 2</a>
+        </h4>
+        <p data-en="Short description of your project or demo link."
+           data-es="Breve descripción de tu proyecto o enlace demo."
+           class="lang">
+          Short description of your project or demo link.
+        </p>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact -->
+<section id="contact" class="bg-gray-100 py-16 px-6 text-center">
+  <h3 data-en="Contact Us" data-es="Contáctanos"
+      class="text-2xl font-bold mb-8 text-indigo-700 lang">
+    Contact Us
+  </h3>
+
+  <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto text-left">
+    <!-- Persona 1 -->
+    <div>
+      <h4 class="text-xl font-bold mb-2">Marcio Salgado</h4>
+      <p>📧 <a href="mailto:youremail@example.com" class="text-indigo-700">mrsalag@hotmail.com</a></p>
+      <p>📞 <a href="https://github.com/TU_USUARIO" target="_blank" class="text-indigo-700">+52 2223 620512</a></p>
+      <p>🔗 <a href="https://linkedin.com/in/marcio-salgado-lagos-004653153" target="_blank" class="text-indigo-700">LinkedIn</a></p>
+    </div>
+
+    <!-- Persona 2 -->
+    <div>
+      <h4 class="text-xl font-bold mb-2">Augusto Chávez</h4>
+      <p>📧 <a href="mailto:socio1@example.com" class="text-indigo-700">socio1@example.com</a></p>
+      <p>📞 <a href="https://github.com/SOCIO1" target="_blank" class="text-indigo-700">Phone</a></p>
+      <p>🔗 <a href="https://linkedin.com/in/SOCIO1" target="_blank" class="text-indigo-700">LinkedIn</a></p>
+    </div>
+
+    <!-- Persona 3 -->
+    <div>
+      <h4 class="text-xl font-bold mb-2">Andrés Salgado</h4>
+      <p>📧 <a href="mailto:socio2@example.com" class="text-indigo-700">socio2@example.com</a></p>
+      <p>📞 <a href="https://github.com/SOCIO2" target="_blank" class="text-indigo-700"> Phone</a></p>
+      <p>🔗 <a href="https://linkedin.com/in/SOCIO2" target="_blank" class="text-indigo-700">LinkedIn</a></p>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- Footer -->
+  <footer class="bg-indigo-700 text-white text-center py-4">
+    <p>© 2025 SkyAILogic. All rights reserved.</p>
+  </footer>
+
+  <!-- Script cambio de idioma -->
+  <script>
+    let currentLang = "en";
+    document.getElementById("lang-toggle").addEventListener("click", () => {
+      currentLang = currentLang === "en" ? "es" : "en";
+      document.querySelectorAll(".lang").forEach(el => {
+        el.textContent = el.getAttribute(`data-${currentLang}`);
+      });
+      document.getElementById("lang-toggle").textContent =
+        currentLang === "en" ? "🇺🇸 EN" : "🇪🇸 ES";
+    });
+  </script>
+
+</body>
+</html>
